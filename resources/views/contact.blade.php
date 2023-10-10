@@ -7,8 +7,8 @@
         </div>
         <div class="p-3 p-md-5 w-100">
             <h5 class="text-orange">Contact Us</h5>
-            <div class="row">
-                <form action="{{ route('contact') }}" method="POST">
+            <form action="{{ route('contact') }}" method="POST">
+                <div class="row">
                     <div class="col-12 col-md-6">
                         <label for="fullname" class="form-label">Full Name</label>
                         <input type="text" class="form-control" id="fullname" placeholder="Name Surname">
@@ -24,8 +24,9 @@
                     <div class="col-12 pt-3">
                         <button type="submit" class="btn btn-primary">Send</button>
                     </div>
-                </form>
-            </div>
+
+                </div>
+            </form>
         </div>
     </div>
 @endsection

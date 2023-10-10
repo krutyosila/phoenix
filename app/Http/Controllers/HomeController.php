@@ -22,8 +22,11 @@ class HomeController extends Controller
         return view('home');
     }
 
-    public function contact()
+    public function contact(Request $request)
     {
+        if($request->isMethod('POST')) {
+
+        }
         return view('contact');
     }
 

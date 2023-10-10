@@ -5,7 +5,6 @@
     <div class="card border-0">
         <img src="{{ asset('assets/img/s1.jpg') }}" class="card-img-top" alt="...">
         <div class="card-body">
-            <h5 class="card-title text-orange">Title1</h5>
             <p class="card-text">
                 Our age management research helps to improve qualify of life of men everywhere; rejecting the
                 standard that aging requires a person to reduce activity and lessen the enjoyment of life.
@@ -15,7 +14,6 @@
     <div class="card border-0">
         <img src="{{ asset('assets/img/s2.jpg') }}" class="card-img-top" alt="...">
         <div class="card-body">
-            <h5 class="card-title text-orange">Title2</h5>
             <p class="card-text">
                 Our age management research helps to improve qualify of life of men everywhere; rejecting the
                 standard that aging requires a person to reduce activity and lessen the enjoyment of life.
@@ -25,7 +23,6 @@
     <div class="card border-0">
         <img src="{{ asset('assets/img/s3.jpg') }}" class="card-img-top" alt="...">
         <div class="card-body">
-            <h5 class="card-title text-orange">Title3</h5>
             <p class="card-text">
                 Phoenix Labs is committed to applying science and technology to improve health and wellbeing,
                 redefining what we can expect in life.

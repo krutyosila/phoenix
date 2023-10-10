@@ -8,6 +8,7 @@
         <div class="p-3 p-md-5 w-100">
             <h5 class="text-orange">Contact Us</h5>
             <form action="{{ route('contact') }}" method="POST">
+                @csrf
                 <div class="row">
                     <div class="col-12 col-md-6">
                         <label for="fullname" class="form-label">Full Name</label>

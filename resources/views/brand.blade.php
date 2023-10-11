@@ -13,7 +13,7 @@
                     <div class="col">
                         <a href="{{ route('product', ['id' => $product->id]) }}"
                            class=" text-decoration-none text-dark text-center">
-                            @if(!empty($product->images))
+                            @if($product->images->count() > 0)
                             <img
                                 src="{{ asset('storage/'.$product->images[0]->id.'/'.$product->images[0]->file_name) }}"
                                 class="img-thumbnail rounded" alt="{!! $product_data->name->en !!}">

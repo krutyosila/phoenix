@@ -13,9 +13,11 @@
                     <div class="col">
                         <a href="{{ route('product', ['id' => $product->id]) }}"
                            class=" text-decoration-none text-dark text-center">
+                            @if(!empty($product->images))
                             <img
                                 src="{{ asset('storage/'.$product->images[0]->id.'/'.$product->images[0]->file_name) }}"
                                 class="img-thumbnail rounded" alt="{!! $product_data->name->en !!}">
+                            @endif
                             <h6 class="pt-2 card-title">{!! $product_data->name->en !!}</h6>
                         </a>
                     </div>
